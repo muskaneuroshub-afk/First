@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="p6bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#141414" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p6bg)" />
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f0f0f" stroke="#262626" stroke-width="1.5" />
+  
+  <!-- Accessible Components Demo -->
+  <!-- Dialog box -->
+  <rect x="90" y="80" width="300" height="180" rx="12" fill="#171717" stroke="#404040" stroke-width="1.5" />
+  <text x="110" y="115" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Accessible Modal Dialog</text>
+  <text x="110" y="145" font-family="monospace" font-size="11" fill="#d4d4d4">role="dialog" aria-modal="true"</text>
+  <rect x="110" y="170" width="260" height="10" rx="3" fill="#525252" />
+  <rect x="110" y="190" width="200" height="10" rx="3" fill="#525252" />
+  <rect x="110" y="215" width="80" height="28" rx="6" fill="#ffffff" />
+  <text x="150" y="233" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#000000" text-anchor="middle">Confirm</text>
+
+  <!-- Combobox & Focus outline -->
+  <rect x="430" y="80" width="280" height="180" rx="12" fill="#171717" stroke="#666666" stroke-width="1.5" stroke-dasharray="6,4" />
+  <text x="450" y="115" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Focus Ring &amp; Trap Spec</text>
+  <text x="450" y="145" font-family="monospace" font-size="11" fill="#d4d4d4">:focus-visible { outline: 2px }</text>
+  <rect x="450" y="175" width="240" height="36" rx="6" fill="#0f0f0f" stroke="#ffffff" stroke-width="1.5" />
+  <text x="465" y="198" font-family="Inter, sans-serif" font-size="12" fill="#e5e5e5">Active Focus Target</text>
+
+  <!-- WCAG Score -->
+  <rect x="90" y="290" width="620" height="70" rx="10" fill="#171717" stroke="#262626" stroke-width="1" />
+  <circle cx="130" cy="325" r="20" fill="#262626" stroke="#404040" stroke-width="1" />
+  <path d="M123 325 L128 330 L138 320" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="170" y="325" font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#ffffff">WCAG 2.1 AA Compliant Components</text>
+  <text x="170" y="345" font-family="Inter, sans-serif" font-size="12" fill="#a3a3a3">Zero keyboard traps, screen reader verified with NVDA &amp; VoiceOver</text>
+  
+  <text x="700" y="395" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#737373" text-anchor="end">A11Y PRIMITIVES MOCKUP</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#000000" />
+  <circle cx="950" cy="200" r="300" fill="#ffffff" opacity="0.04" filter="blur(60px)" />
+  <rect x="100" y="100" width="1000" height="430" rx="24" fill="#0a0a0a" stroke="#262626" stroke-width="2" />
+  
+  <text x="160" y="210" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#a3a3a3" letter-spacing="4">PORTFOLIO</text>
+  <text x="160" y="300" font-family="Inter, sans-serif" font-size="64" font-weight="800" fill="#ffffff">Muskan Waseem</text>
+  <text x="160" y="360" font-family="Inter, sans-serif" font-size="32" font-weight="600" fill="#d4d4d4">Portfolio</text>
+  <text x="160" y="440" font-family="Inter, sans-serif" font-size="20" font-weight="400" fill="#888888">Accessible, High-Performance Web Applications &amp; Clean Architecture</text>
+</svg>

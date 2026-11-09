@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#404040" />
+      <stop offset="100%" stop-color="#262626" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bgGrad)" />
+  <circle cx="200" cy="155" r="70" fill="url(#avatarGrad)" />
+  <path d="M90 340 C90 260, 140 240, 200 240 C260 240, 310 260, 310 340 Z" fill="url(#avatarGrad)" />
+  <rect x="50" y="345" width="300" height="32" rx="8" fill="#111111" stroke="#262626" stroke-width="1.5" />
+  <text x="200" y="366" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#a3a3a3" text-anchor="middle" letter-spacing="1.5">PLACEHOLDER AVATAR</text>
+</svg>

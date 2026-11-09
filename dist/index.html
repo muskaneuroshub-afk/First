@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muskan Waseem | Portfolio</title>
+    <meta name="description" content="Portfolio of Muskan Waseem: projects, skills, experience and contact information." />
+    <meta name="author" content="Muskan Waseem" />
+
+    <!-- Prevent white flash before styles load -->
+    <style>
+      html[data-theme="dark"] { background: #000000; color-scheme: dark; }
+      html[data-theme="light"] { background: #ffffff; color-scheme: light; }
+    </style>
+    
+    <!-- Anti-FOUC Theme Script: executes synchronously before render, defaults to dark -->
+    <script>
+      (function() {
+        try {
+          var stored = localStorage.getItem('portfolio-theme');
+          var theme = (stored === 'light' || stored === 'dark') ? stored : 'dark';
+          document.documentElement.setAttribute('data-theme', theme);
+          if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+
+    <!-- Theme Color for mobile browser bars (updated dynamically by useTheme hook) -->
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Open Graph & Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Muskan Waseem | Portfolio" />
+    <meta property="og:description" content="Portfolio of Muskan Waseem: projects, skills, experience and contact information." />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Muskan Waseem | Portfolio" />
+    <meta name="twitter:description" content="Portfolio of Muskan Waseem: projects, skills, experience and contact information." />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="/assets/index-C0GbG5wv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CLCM3sY4.css">
+  </head>
+  <body class="bg-bg-primary text-text-primary antialiased selection:bg-brand selection:text-brand-foreground transition-colors duration-200 min-h-screen">
+    <div id="root"></div>
+  </body>
+</html>

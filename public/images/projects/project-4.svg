@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="p4bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0a" />
+      <stop offset="100%" stop-color="#141414" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#p4bg)" />
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#0f0f0f" stroke="#262626" stroke-width="1.5" />
+  
+  <circle cx="70" cy="65" r="5" fill="#404040" />
+  <circle cx="88" cy="65" r="5" fill="#404040" />
+  <circle cx="106" cy="65" r="5" fill="#404040" />
+
+  <text x="70" y="115" font-family="monospace" font-size="16" fill="#ffffff">$ npx dev-cli scaffold --template clean-arch</text>
+  <text x="70" y="150" font-family="monospace" font-size="14" fill="#a3a3a3">✔ Creating directory structure...</text>
+  <text x="70" y="180" font-family="monospace" font-size="14" fill="#a3a3a3">✔ Generating TypeScript interfaces &amp; strict schema...</text>
+  <text x="70" y="210" font-family="monospace" font-size="14" fill="#a3a3a3">✔ Installing core dependencies (0 vulnerabilities)...</text>
+  <text x="70" y="240" font-family="monospace" font-size="14" fill="#a3a3a3">✔ Running automated unit &amp; a11y tests [All 48 Passed]</text>
+  <text x="70" y="280" font-family="monospace" font-size="16" fill="#ffffff">✨ Scaffolding complete in 3.42s!</text>
+
+  <rect x="70" y="320" width="300" height="40" rx="8" fill="#1c1c1c" stroke="#404040" />
+  <text x="220" y="345" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle">OPEN SOURCE TOOLKIT</text>
+  <text x="700" y="395" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#737373" text-anchor="end">CLI TERMINAL MOCKUP</text>
+</svg>

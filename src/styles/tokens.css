@@ -1,0 +1,79 @@
+@layer base {
+  :root {
+    color-scheme: light;
+
+    /* Backgrounds */
+    --bg-primary: #ffffff;
+    --bg-secondary: #f5f5f5;
+    --bg-card: #ffffff;
+    --bg-card-hover: #f0f0f0;
+    --bg-glass: rgba(255, 255, 255, 0.85);
+
+    /* Text */
+    --text-primary: #0a0a0a;
+    --text-secondary: #404040;
+    --text-muted: #666666;
+
+    /* Primary Accent (Monochrome Deep Charcoal) */
+    --primary: #0a0a0a;
+    --primary-hover: #262626;
+    --primary-foreground: #ffffff;
+    --primary-subtle: rgba(0, 0, 0, 0.06);
+
+    /* Secondary Accent */
+    --accent: #404040;
+    --accent-hover: #0a0a0a;
+    --accent-foreground: #ffffff;
+
+    /* Borders & Outlines */
+    --border: #e5e5e5;
+    --border-hover: #d4d4d4;
+    --border-focus: #0a0a0a;
+    --border-strong: #8a8a8a;
+    --ring: #0a0a0a;
+
+    /* Semantic Statuses */
+    --status-success: #16a34a;
+    --status-error: #dc2626;
+    --status-warning: #d97706;
+  }
+
+  [data-theme='dark'] {
+    color-scheme: dark;
+
+    /* Backgrounds (Pure Black Foundation) */
+    --bg-primary: #000000;
+    --bg-secondary: #0a0a0a;
+    --bg-card: #111111;
+    --bg-card-hover: #1a1a1a;
+    --bg-glass: rgba(0, 0, 0, 0.80);
+
+    /* Text */
+    --text-primary: #ffffff;
+    --text-secondary: #d4d4d4;
+    --text-muted: #a3a3a3;
+
+    /* Primary Accent (Pure White) */
+    --primary: #ffffff;
+    --primary-hover: #e5e5e5;
+    --primary-foreground: #000000;
+    --primary-subtle: rgba(255, 255, 255, 0.08);
+
+    /* Secondary Accent */
+    --accent: #d4d4d4;
+    --accent-hover: #ffffff;
+    --accent-foreground: #000000;
+
+    /* Borders & Outlines */
+    --border: #262626;
+    --border-hover: #404040;
+    --border-focus: #ffffff;
+    --border-strong: #666666;
+    --ring: #ffffff;
+
+    /* Semantic Statuses */
+    --status-success: #22c55e;
+    --status-error: #ef4444;
+    --status-warning: #f59e0b;
+  }
+}
